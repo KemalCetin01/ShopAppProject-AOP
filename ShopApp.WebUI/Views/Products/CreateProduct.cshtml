@@ -1,0 +1,133 @@
+﻿@model ProductModel
+@{ ViewData["Title"] = "CreateProduct";
+    var counter = 0; }
+
+@*Script _Layout içinde tanımlandı*@
+@section Scripts{
+    <script src="~/modules/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('editor');
+    </script>
+}
+
+<h1>Ürün Oluştur</h1>
+<hr />
+<form asp-controller="Products" asp-action="CreateProduct" method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="row">
+        <div class="col-md-8">
+
+            @if (ViewBag.Message != null)
+            {<div class="text-danger">@ViewBag.Message</div>}
+
+            <div class="form-group row">
+                <label asp-for="ProductName" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="ProductName" value="@Model.ProductName" class="form-control" />
+                    <span asp-validation-for="ProductName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="ImageUrl" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="ImageUrl" value="@Model.ImageUrl" class="form-control" />
+                    <span asp-validation-for="ImageUrl" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Modell" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Modell" value="@Model.Modell" class="form-control" />
+                    <span asp-validation-for="Modell" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Dimensions" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Dimensions" value="@Model.Dimensions" class="form-control" />
+                    <span asp-validation-for="Dimensions" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Material" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="Material" value="@Model.Material" class="form-control" />
+                    <span asp-validation-for="Material" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="WarrantyPeriod" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="WarrantyPeriod" value="@Model.WarrantyPeriod" class="form-control" />
+                    <span asp-validation-for="WarrantyPeriod" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="QuantityPerUnit" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="QuantityPerUnit" value="@Model.QuantityPerUnit" class="form-control" type="number" />
+                    <span asp-validation-for="QuantityPerUnit" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="UnitsInStock" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="UnitsInStock" value="@Model.UnitsInStock" class="form-control" type="number" />
+                    <span asp-validation-for="UnitsInStock" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="SequenceMeter" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="SequenceMeter" value="@Model.SequenceMeter" class="form-control" type="number" />
+                    <span asp-validation-for="SequenceMeter" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="Description" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <textarea id="editor" asp-for="Description" class="form-control">
+                        value="@Model.Description"
+                    </textarea>
+                    <span asp-validation-for="Description" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label asp-for="UnitPrice" class="col-md-2 col-form-label"></label>
+                <div class="col-md-10">
+                    <input asp-for="UnitPrice" value="@Model.UnitPrice" class="form-control" />
+                    <span asp-validation-for="UnitPrice" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-md-10 offset-md-2">
+                    <button type="submit" class="btn btn-primary">Ürünü Kaydet</button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-4">
+            <h4>Kategoriler</h4>
+            @*@foreach (var item in (List<Category>)ViewBag.Categories)
+                {
+                    var isChecked = "";
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox"
+                               name="categoryIds"
+                               value="@item.Id"
+                               class="custom-control-input"
+                               id="category@(item.Id)"
+                               @isChecked>
+                        <label class="custom-control-label" for="category@(item.Id)">@item.Name</label>
+                    </div>
+                }*@
+            <h4>Markalar</h4>
+            @*<select name="BrandId" asp-for="@Model.SelectedBrands.Id" asp-items="@Model.Brands" class="btn btn-primary dropdown-toggle"> </select>*@
+
+        </div>
+    </div>
+
+</form>

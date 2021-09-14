@@ -1,0 +1,16 @@
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.deps.json
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Business.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Core.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.DataAccess.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\bin\Debug\netcoreapp3.1\ShopApp.Core.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csprojAssemblyReference.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.AssemblyInfo.cs
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.csproj.CopyComplete
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Business\obj\Debug\netcoreapp3.1\ShopApp.Business.pdb

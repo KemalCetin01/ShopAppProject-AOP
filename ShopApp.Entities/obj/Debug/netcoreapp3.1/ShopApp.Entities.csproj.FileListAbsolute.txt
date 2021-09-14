@@ -1,0 +1,12 @@
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.deps.json
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Entities.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Core.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\bin\Debug\netcoreapp3.1\ShopApp.Core.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csprojAssemblyReference.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.AssemblyInfoInputs.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.AssemblyInfo.cs
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.csproj.CopyComplete
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Entities\obj\Debug\netcoreapp3.1\ShopApp.Entities.pdb

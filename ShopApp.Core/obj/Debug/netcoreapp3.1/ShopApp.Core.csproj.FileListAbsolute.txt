@@ -1,0 +1,11 @@
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\bin\Debug\netcoreapp3.1\ShopApp.Core.deps.json
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\bin\Debug\netcoreapp3.1\ShopApp.Core.runtimeconfig.json
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\bin\Debug\netcoreapp3.1\ShopApp.Core.runtimeconfig.dev.json
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\bin\Debug\netcoreapp3.1\ShopApp.Core.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\bin\Debug\netcoreapp3.1\ShopApp.Core.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\obj\Debug\netcoreapp3.1\ShopApp.Core.AssemblyInfoInputs.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\obj\Debug\netcoreapp3.1\ShopApp.Core.AssemblyInfo.cs
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\obj\Debug\netcoreapp3.1\ShopApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\obj\Debug\netcoreapp3.1\ShopApp.Core.dll
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\obj\Debug\netcoreapp3.1\ShopApp.Core.pdb
+C:\Users\kemal\source\repos\ShopAppProject\ShopApp.Core\obj\Debug\netcoreapp3.1\ShopApp.Core.genruntimeconfig.cache
